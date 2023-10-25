@@ -1,0 +1,10 @@
+{
+  "name": "susu-arrify",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
