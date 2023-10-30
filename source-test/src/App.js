@@ -1,7 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import susuArrify from "susu-arrify";
+import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
+  console.log(susuArrify("susu"));
+  console.log(susuArrify(null));
+  console.log(susuArrify([1, 2, 3]));
+  console.log(susuArrify({ a: 1, b: 2 }));
+  console.log(susuArrify("hello"));
   return (
     <div className="App">
       <header className="App-header">

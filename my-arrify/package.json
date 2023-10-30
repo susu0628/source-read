@@ -3,8 +3,15 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "files": [
     "index.js",
     "index.d.ts"
-  ]
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "ava": "^5.3.1"
+  }
 }
